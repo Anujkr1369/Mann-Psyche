@@ -15,8 +15,8 @@ const Contact = () => {
         <img className='w-full md:max-w-[360px]' src={assets.contact_image} alt="" />
         <div className='flex flex-col justify-center items-start gap-6'>
           <p className=' font-semibold text-lg text-gray-600'>OUR OFFICE</p>
-          <p className=' text-gray-500'>Rz C1 Patel Garden , Mahila Park <br /> Neat Old Palam Road New Delhi-110078 </p>
-          <p className=' text-gray-500'>Tel: 9289102955 <br /> Email: infomannpsyche@gmail.com</p>
+          <p className=' text-gray-500'>Rz C1 Patel Garden , Mahila Park <br /> Near Old Palam Road New Delhi-110078 </p>
+          <p className=' text-gray-500'>Tel: 9289102955 / 9643122455 <br /> Landline: +911145601304  <br /> Email: infomannpsyche@gmail.com</p>
           <p className=' font-semibold text-lg text-gray-600'>CAREERS AT MANN PSYCHE</p>
           <p className=' text-gray-500'>Learn more about our teams and job openings.</p>
           <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500'>Call Us: 9289102955</button>

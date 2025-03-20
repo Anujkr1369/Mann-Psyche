@@ -21,3 +21,16 @@
 ::-webkit-scrollbar {
     @apply hidden
 }
+/* Force white background for the entire site */
+body, html {
+    background-color: white !important; /* Ensures the background is always white */
+    color-scheme: light; /* Prevents devices from switching to dark mode */
+}
+  
+  /* Forcing Tailwind to use light theme */
+  html {
+    color-scheme: light; 
+  }
+  
+ 
+  
