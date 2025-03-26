@@ -18,10 +18,18 @@ const footer = () => {
   </aside>
   <nav>
     <h6 className="footer-title">Services</h6>
-    <Link className="link link-hover" to="/Doctors">NeuroMotor consultant</Link>
-    <Link className="link link-hover" to="/Doctors">Dental Surgeon</Link>
-    <Link className="link link-hover" to="/Doctors">Development Delays</Link>
-    <Link className="link link-hover" to="/Doctors">Psychologist</Link>
+    <Link className="link link-hover" to="/doctors/NeuroMuscular Consultant">Neuromuscular consultant</Link>
+    <Link className="link link-hover" to="/doctors/Dental Surgeon">Dental Surgeon</Link>
+    <Link className="link link-hover" to="/doctors/Development Delays">Development Delays</Link>
+    <Link className="link link-hover" to="/doctors/Psychologist">Psychologist</Link>
+    <Link className="link link-hover" to="/doctors/Occupational Therapist">Occupational Therapist</Link>
+    <Link className="link link-hover" to="/doctors/Head & Neck Cancer Specialist">Head & Neck Cancer Specialist</Link>
+    <Link className="link link-hover" to="/doctors/Clinical Nutritionist">Clinical Nutritionist</Link>
+    <Link className="link link-hover" to="/doctors/Special Educator">Special Educator</Link>
+
+
+
+
   </nav>
   <nav>
   <h6 className="footer-title">Company</h6>

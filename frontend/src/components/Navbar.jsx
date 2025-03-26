@@ -119,7 +119,7 @@ const Navbar = () => {
             <NavLink onClick={() => setShowMenu(false)} to="/">
               <p>HOME</p>
             </NavLink>
-            <NavLink onClick={() => setShowMenu(false)} to="/doctors">
+            <NavLink onClick={() => setShowMenu(false)} to="/doctors/NeuroMuscular%20Consultant">
               <p>ALL DOCTORS</p>
             </NavLink>
             <NavLink onClick={() => setShowMenu(false)} to="/about">
