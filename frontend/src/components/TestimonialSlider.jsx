@@ -2,22 +2,32 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import { assets } from '../assets/assets'
 
 const testimonials = [
   {
-    name: "Rahul Sharma",
-    text: "Booking an appointment was so easy and hassle-free. Highly recommended!",
-    image: "https://randomuser.me/api/portraits/men/3.jpg",
+    name: "Adarsh",
+    text: "Dr Saurabh is truly empathetic and professional. He created a safe space for me to explore my feelings, and his advice was both practical and compassionate",
+    image: assets.adarshreview,
   },
   {
-    name: "Priya Deshmukh",
-    text: "I got connected to a great doctor within minutes. Excellent service!",
-    image: "https://randomuser.me/api/portraits/women/3.jpg",
+    name: "Srinivas Reddy",
+    text: `Dr. Saurabh is an excellent psychologist. His guidance has been life-changing
+
+Highly professional and compassionate. Mann Psyche is the best place for mental health support
+
+A great listener and advisor. I feel much better after every session with Dr. Saurabh
+
+The best psychologist in Dwarka! Helped me manage stress and anxiety effectively
+
+Dr. Saurabh provides a safe and supportive environment.
+Highly recommend Mann Psyche`,
+    image: assets.SrinivasReview,
   },
   {
-    name: "Amit Patel",
-    text: "Smooth experience, from booking to consultation. Very convenient!",
-    image: "https://randomuser.me/api/portraits/men/4.jpg",
+    name: "Rahika Singh",
+    text: "i had an amazing Dr. Saurabh his warm approach and insightfull guidance helped me over come my anxiety and overcome my confident",
+    image: assets.RahikaSinghReview,
   },
 ];
 

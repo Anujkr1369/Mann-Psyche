@@ -21,7 +21,7 @@ const footer = () => {
     <Link className="link link-hover" to="/Doctors">NeuroMotor consultant</Link>
     <Link className="link link-hover" to="/Doctors">Dental Surgeon</Link>
     <Link className="link link-hover" to="/Doctors">Development Delays</Link>
-    <Link className="link link-hover" to="/Doctors">Pshychologist</Link>
+    <Link className="link link-hover" to="/Doctors">Psychologist</Link>
   </nav>
   <nav>
   <h6 className="footer-title">Company</h6>

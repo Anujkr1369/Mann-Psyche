@@ -16,6 +16,7 @@ import Verify from './pages/Verify'
 import BlogsPage from './pages/BlogsPage'
 import GalleryPage from './pages/GalleryPage'
 import ScrollToTop from "./components/ScrollToTop";
+// import LandingPage from './pages/LandingPage'
 const App = () => {
   return (
     <div className='mx-4 sm:mx-[10%]'>
@@ -26,6 +27,7 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/BlogsPage' element={<BlogsPage/>} />
         <Route path='/GalleryPage' element={<GalleryPage/>} />
+        {/* <Route path='/LandingPage' element={<LandingPage/>} /> */}
         
         <Route path='/doctors' element={<Doctors />} />
         <Route path='/doctors/:speciality' element={<Doctors />} />

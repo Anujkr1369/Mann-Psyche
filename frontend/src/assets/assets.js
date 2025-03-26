@@ -73,12 +73,18 @@ import Head from './Head.jpg'
 import DevelopmentDelay from './DevelopmentDelay.jpg'
 import Occu from './Occu.jpg'
 import Speci from './Speci.jpg'
+import adarshreview from './adarshreview.png'
+import RahikaSinghReview from './RahikaSinghReview.png'
+import SrinivasReview from './SrinivasReview.png'
 
 
 
 
 export const assets = {
     appointment_img,
+    SrinivasReview,
+    adarshreview,
+    RahikaSinghReview,
     Speci,
     Clini,
     DentalSurgeon,
