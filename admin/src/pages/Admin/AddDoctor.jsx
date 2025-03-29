@@ -141,6 +141,15 @@ const AddDoctor = () => {
                                 <option value="Psychologist">Psychologist</option>
                                 <option value="Developmental Delays">Development Delays</option>
                                 <option value="Clinical Nutritionist">Clinical Nutritionist</option>
+                                <option value="Pediatrician">Pediatrician</option>
+                                <option value="General Physician">General Physician</option>
+                                <option value="Congnitive Behavioral Therapist(CBT)">Congnitive Behavioral Therapist(CBT)</option>
+                                <option value="Physical Therapy Aide">Physical Therapy Aide</option>
+
+
+
+                        
+
 
 
 

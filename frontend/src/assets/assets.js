@@ -142,10 +142,7 @@ export const assets = {
 }
 
 export const specialityData = [
-    {
-        speciality: 'NeuroMuscular Consultant',
-        image: Neurologist
-    },
+  
     {
         speciality: 'Dental Surgeon',
         image: DentalSurgeon
@@ -153,6 +150,10 @@ export const specialityData = [
     {
         speciality: 'Special Educator',
         image: Speci
+    },
+    {
+        speciality: 'NeuroMuscular Consultant',
+        image: Neurologist
     },
     {
         speciality: 'Clinical Nutritionist',
