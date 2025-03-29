@@ -26,23 +26,35 @@ const Navbar = () => {
       />
 
       {/* Main Navigation (Hidden on Mobile) */}
-      <ul className="md:flex items-center gap-5 font-medium hidden">
-        <NavLink to="/"><li className="py-1">HOME</li></NavLink>
-        <NavLink to="/doctors/NeuroMuscular%20Consultant"><li className="py-1">ALL DOCTORS</li></NavLink>
-        <NavLink to="/about"><li className="py-1">ABOUT</li></NavLink>
-        <NavLink to="/contact"><li className="py-1">CONTACT</li></NavLink>
-        <NavLink to="/BlogsPage"><li className="py-1">BLOGS</li></NavLink>
-        <NavLink to="/GalleryPage"><li className="py-1">GALLERY</li></NavLink>
+      <ul className="md:flex items-center gap-5 font-medium hidden text-black">
+        <NavLink to="/">
+          <li className="py-1">HOME</li>
+        </NavLink>
+        <NavLink to="/doctors/NeuroMuscular%20Consultant">
+          <li className="py-1">ALL DOCTORS</li>
+        </NavLink>
+        <NavLink to="/about">
+          <li className="py-1">ABOUT</li>
+        </NavLink>
+        <NavLink to="/contact">
+          <li className="py-1">CONTACT</li>
+        </NavLink>
+        <NavLink to="/BlogsPage">
+          <li className="py-1">BLOGS</li>
+        </NavLink>
+        <NavLink to="/GalleryPage">
+          <li className="py-1">GALLERY</li>
+        </NavLink>
       </ul>
 
-      {/* Buttons (Visible on all screens) */}
+      {/* Book Appointment & Account Buttons (Visible on all screens) */}
       <div className="flex items-center gap-4">
         <motion.button
           id="book-appointment-btn"
           className="bg-gradient-to-r from-red-500 to-pink-500 text-white px-4 py-2 rounded-full font-medium transition-all shadow-lg hover:bg-blue-700"
           onClick={() => navigate("/Doctors")}
           animate={{ y: [30, -30, 30] }}
-          transition={{ repeat: Infinity, repeatType: "loop", duration: 0.5 }}
+          transition={{ repeat: Infinity, repeatType: "loop", duration: .5 }}
         >
           Book Appointment
         </motion.button>
@@ -53,16 +65,28 @@ const Navbar = () => {
             <img className="w-2.5" src={assets.dropdown_icon} alt="Dropdown" />
             <div className="absolute top-0 right-0 pt-14 text-base font-medium text-gray-600 z-20 hidden group-hover:block">
               <div className="min-w-48 bg-gray-50 rounded flex flex-col gap-4 p-4">
-                <p onClick={() => navigate("/my-profile")} className="hover:text-black cursor-pointer">My Profile</p>
-                <p onClick={() => navigate("/my-appointments")} className="hover:text-black cursor-pointer">My Appointments</p>
-                <p onClick={logout} className="hover:text-black cursor-pointer">Logout</p>
+                <p
+                  onClick={() => navigate("/my-profile")}
+                  className="hover:text-black cursor-pointer"
+                >
+                  My Profile
+                </p>
+                <p
+                  onClick={() => navigate("/my-appointments")}
+                  className="hover:text-black cursor-pointer"
+                >
+                  My Appointments
+                </p>
+                <p onClick={logout} className="hover:text-black cursor-pointer">
+                  Logout
+                </p>
               </div>
             </div>
           </div>
         ) : (
           <button
             onClick={() => navigate("/login")}
-            className="bg-primary text-black px-6 py-2 rounded-full font-medium"
+            className="bg-primary text-black px-6 py-2 rounded-full font-medium hidden md:block"
           >
             Create Account
           </button>
@@ -92,12 +116,24 @@ const Navbar = () => {
 
           {/* Mobile Nav Items */}
           <ul className="flex flex-col items-center gap-4 mt-5 text-lg font-medium">
-            <NavLink onClick={() => setShowMenu(false)} to="/"><p>HOME</p></NavLink>
-            <NavLink onClick={() => setShowMenu(false)} to="/doctors/NeuroMuscular%20Consultant"><p>ALL DOCTORS</p></NavLink>
-            <NavLink onClick={() => setShowMenu(false)} to="/about"><p>ABOUT</p></NavLink>
-            <NavLink onClick={() => setShowMenu(false)} to="/contact"><p>CONTACT</p></NavLink>
-            <NavLink onClick={() => setShowMenu(false)} to="/BlogsPage"><p>BLOGS</p></NavLink>
-            <NavLink onClick={() => setShowMenu(false)} to="/GalleryPage"><p>GALLERY</p></NavLink>
+            <NavLink onClick={() => setShowMenu(false)} to="/">
+              <p>HOME</p>
+            </NavLink>
+            <NavLink onClick={() => setShowMenu(false)} to="/doctors/NeuroMuscular%20Consultant">
+              <p>ALL DOCTORS</p>
+            </NavLink>
+            <NavLink onClick={() => setShowMenu(false)} to="/about">
+              <p>ABOUT</p>
+            </NavLink>
+            <NavLink onClick={() => setShowMenu(false)} to="/contact">
+              <p>CONTACT</p>
+            </NavLink>
+            <NavLink onClick={() => setShowMenu(false)} to="/BlogsPage">
+              <p>BLOGS</p>
+            </NavLink>
+            <NavLink onClick={() => setShowMenu(false)} to="/GalleryPage">
+              <p>GALLERY</p>
+            </NavLink>
           </ul>
 
           {/* Mobile "Book Appointment" & "Create Account" Buttons */}
