@@ -11,7 +11,7 @@ const footer = () => {
   <aside>
     <img   className="w-30   text-black h-20 object-contain cursor-pointer" src={assets.anlogo} alt="" />
     <p className='text-black'>
-      MannPsyche Pvt. Ltd.
+      KS MANNPSYCHE INDIA PVT. LTD
       <br />
       Providing reliable help since a long
     </p>
